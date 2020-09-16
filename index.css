@@ -1,0 +1,141 @@
+.logo-size{
+width: 156px;
+height: 45px;
+}
+.arrow-size{
+
+width: 13px;
+height: 8px;
+}
+.bg-white{
+	background-color: #FDFDFF;
+}
+/*navbar css end*/
+
+/*btns css start*/
+.btn-defalut{
+	width: 100%;
+	height: 60px;
+	background-color: #FFFFFF;
+	border:1px solid #e3dfde;
+	color: #13138D;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.disabled{
+	background-color:#F2F2F6;
+	color: #707C96; 
+}
+.mrg50T{
+	margin-top: 50px;
+}
+.card{padding: 20px;}
+.card-heading{
+	color: #110B3F;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+.IncrDecri{
+	width: 120px;
+	height: 35px;
+}
+.mrg30T{
+	margin-top: 30px;
+}
+.mrg15R{
+	margin-right: 15px;
+}
+.card-header{
+	background-color: #FDFDFF;
+}
+.padTRBL{
+	padding: 30px 32px 42px 30px;
+}
+.padR202{
+	padding-left: 202px;
+}
+.padR169{
+	padding-right: 169px;
+}
+.padR140{
+	padding-right: 140px;
+}
+.padR189{
+	padding-right: 189px;
+}
+.card-img{
+	border:1px solid #e3dfde;
+}
+.bg-greay{
+	background-color:#e3dfde;
+	height: 35px;
+	width: 120px;
+}
+.redtext{
+	color: #ED3E6D;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	opacity: 1px;
+}
+
+/*summay card*/
+.price_sumtext{
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	color: #707C96;
+	opacity: 1px;
+
+}
+.fS14text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #707C96;
+	opacity: 1px;
+}
+.fs16Numbrs{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #707C96;
+	opacity: 1px;
+
+}
+.fsnav{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	color: #707C96;
+	opacity: 1px;
+
+}
+.mrg27B{
+	margin-bottom: 27px;
+
+}
+.mrg24B{
+	margin-bottom: 24px;
+}
+.fs20Total{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+	color: #110B3F;
+	opacity: 1px;
+}
+.apend_bg{
+	background-color: #13138D;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #707C96;
+	opacity: 1px;
+
+}
+.btn-green{
+	background-color: #5BB701;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	opacity: 1px;
+}
+.gst-size{
+	height: 51px
+	width:auto;
+}

@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <title>Task</title>
+  </head>
+  <body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <a class="navbar-brand" href="#"><img src="assests/Group 4@4X.png"/ class="logo-size"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link fsnav" href="#">Carbanio.com<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link fsnav" href="#">Hi, Lorem Ipsum<img src="assests/down-arrow (1)@4X.png" class="arrow-size"></a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+<!-- nav bar close -->
+
+<div class="row mrg50T">
+  <div class="col-md-4">
+    <button class="btn-defalut mrg15R"> Shopping Cart (3)</button>
+  </div>
+   <div class="col-md-4">
+    <button class="btn-defalut disabled mrg15R" disabled> Placed Orders (6)</button>
+  </div>
+   <div class="col-md-4">
+    <button class="btn-defalut disabled mrg15R" disabled> Ready to Confirm</button>
+  </div>
+</div>
+  <div class="row">
+    <div class="col-md-8">
+      <div class="card mrg30T">
+        <div class="car-body">
+          <div class="row">
+          <div class="col-md-2">
+            <img src="assests/Group 4482@4X.png" class="card-img">
+          </div>
+          <div class="col-md-4">
+            <p class="card-heading">Clarithromycin Impurity J</p>
+            <label class="fS14text">CAS No. 13127-18-9</label>
+            <label class="fS14text">Weight - 500 g</label><br>
+            <label class="fS14text">Packs</label><br>
+           <div class="bg-greay">
+            <a href="#" onclick="subitem()" class="pl-2"><img src="assests/Rectangle 31@1X.png"></a>
+            <span id="number">0</span>
+            <a href="#" onclick="additem()" class="pr-2"><img src="assests/Path 12@1X.png"></a></div>
+            <label class="redtext" onclick="remove()">REMOVE</label>
+            
+          </div>
+          <div class="col-md-3">
+            <img src="assests/Group 4843@4X.png" class="gst-size img-fluid">
+            <p class="fS14text">GST APPLICABLE:</p>
+            <label class="fS14text">Final PRICE:</label>
+            <label class="fS14text">SHIPPING FEE:</label>
+          </div>
+          <div class="col-md-3">
+            <img src="assests/Group 4843@4X.png" class="gst-size img-fluid">
+            <p class="fs16Numbrs" id="gst">558.32</p>
+            <label class="fs16Numbrs redtext" id="fprice">0</label><br>
+            <label class="fs16Numbrs" id="sfee">100.00</label>
+          </div>
+         </div>
+        </div>
+      </div>
+      <!-- 1st card div end -->
+      <!-- 2 nd card div start -->
+      <div class="card mrg30T">
+        <div class="car-body">
+          <div class="row">
+          <div class="col-md-2">
+            <img src="assests/Group 4482@4X.png" class="card-img">
+          </div>
+          <div class="col-md-4">
+            <p class="card-heading">Clarithromycin Impurity J</p>
+            <label class="fS14text">CAS No. 13127-18-9</label>
+            <label class="fS14text">Weight - 500 g</label><br>
+            <label class="fS14text">Packs</label><br>
+            <div class="bg-greay">
+            <a href="#" onclick="subitem()" class="pl-2"><img src="assests/Rectangle 31@1X.png"></a>
+            <span id="number1">0</span>
+            <a href="#" onclick="additem()" class="pr-2"><img src="assests/Path 12@1X.png"></a></div>
+            <label class="redtext" onclick="remove()">REMOVE</label>
+            
+          </div>
+          <div class="col-md-3">
+            <img src="assests/Group 4843@4X.png" class="gst-size img-fluid">
+            <p class="fS14text">GST APPLICABLE:</p>
+            <label class="fS14text">Final PRICE:</label>
+            <label class="fS14text">SHIPPING FEE:</label>
+          </div>
+          <div class="col-md-3">
+            <img src="assests/Group 4843@4X.png" class="gst-size img-fluid">
+            <p class="fs16Numbrs" id="gst">558.32</p>
+            <label class="fs16Numbrs redtext" id='fprice'>0</label><br>
+            <label class="fs16Numbrs" id="sfee">100.00</label>
+          </div>
+         </div>
+        </div>
+      </div>
+      <!-- 3rd card div start -->
+      <div class="card mrg30T">
+        <div class="car-body">
+          <div class="row">
+          <div class="col-md-2">
+            <img src="assests/Group 4482@4X.png" class="card-img img-fluid">
+          </div>
+          <div class="col-md-4">
+            <p class="card-heading">Clarithromycin Impurity J</p>
+            <label class="fS14text">CAS No. 13127-18-9</label>
+            <label class="fS14text">Weight - 500 g</label><br>
+            <label class="fS14text">Packs</label><br>
+            <div class="bg-greay">
+            <a href="#" onclick="subitem()" class="pl-2"><img src="assests/Rectangle 31@1X.png"></a>
+            <span id="number2">1</span>
+            <a href="#" onclick="additem()" class="pr-2"><img src="assests/Path 12@1X.png"></a></div>
+            <label class="redtext" onclick="remove()">REMOVE</label>
+            
+          </div>
+          <div class="col-md-3">
+            <img src="assests/Group 4843@4X.png" class="gst-size img-fluid">
+            <p class="fS14text">GST APPLICABLE:</p>
+            <label class="fS14text">Final PRICE:</label>
+            <label class="fS14text">SHIPPING FEE:</label>
+          </div>
+          <div class="col-md-3">
+            <img src="assests/Group 4843@4X.png" class="gst-size img-fluid">
+            <p class="fs16Numbrs" id="gst">558.32</p>
+            <label class="fs16Numbrs redtext" id="fprice"> 658.81</label><br>
+            <label class="fs16Numbrs" id="sfee">100.00</label>
+          </div>
+         </div>
+        </div>
+      </div>
+      
+      
+      <!-- 3rd card div end -->   
+    </div>
+<!-- right side card code -->
+    <div class="col-md-4 float-left">
+        <div class="card mrg30T padTRBL ">
+          <div class="card-header">
+            <div class="card-text">
+              <h5 class="text-center price_sumtext">PRICE SUMMARY</h5>
+            </div>
+          </div>
+          <div class="car-body">
+            <div class="mrg27B fs16Numbrs mt-4">
+            <label class="" >Sub Total: </label>
+            <label class="float-right" id="total">0</label>
+            </div>
+            <div class="fs16Numbrs">
+            <label class="mrg24B">Service Charge:  </label><label class="float-right"  id="sc">202.05</label>
+            </div>
+            <div class="fs16Numbrs">
+            <label class="mrg24B" >Applicable Tax on SC:  </label><label class="float-right" id="ac">20.00</label>
+            </div>
+            <div class="fs16Numbrs">
+            <label class="mrg24B" >Shipping Fee:</label><label class="float-right" id="sf" >200.00</label>
+            </div>
+            <hr>
+
+            <div class="fs20Total">
+            <label class="">Total Payable: </label>
+            <label class="float-right" id="tp">2225.50</label>
+            </div>
+            <hr>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <span class="input-group-text apend_bg" id="basic-addon2">Change</span>
+              </div>
+            </div>
+          </div>
+          <div class="placeordebtn">
+            <button class="btn btn-green btn-block">PLACE ORDER
+              
+            </button>
+          </div>
+        </div>
+      </div>
+   
+  
+</div>
+<!-- conatiner div -->    
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+<script type="text/javascript">
+  const num=document.querySelector("#number");
+  var price=document.getElementById("gst").innerHTML;
+  const fprice1=document.getElementById("fprice").innerHTML;
+  const sfee1=document.getElementById("sfee").innerHTML;
+  const sc1=document.getElementById("sc").innerHTML;
+    const ac1=document.getElementById("ac").innerHTML;
+  const sf1=document.getElementById("sf").innerHTML;
+
+
+var count=0;
+var tot=0;
+var tp1=0;
+var cost
+
+  function additem(){
+    count++;
+  
+   console.log(count);
+   document.getElementById("number").innerHTML=count;
+    
+   cost= Number(count) * Number(price);
+
+   document.getElementById("fprice").innerHTML=Number(cost);
+    var tot=Number(cost)+Number(sfee1);
+document.getElementById("total").innerHTML=Number(tot);
+ var tp1= Number(sc1)+Number(ac1)+Number(sf1)+Number(tot);
+document.getElementById("tp").innerHTML=tp1;
+    } 
+
+  function subitem(){
+    count --;
+  document.getElementById("number").innerHTML=count;
+   cost=Number(cost)- Number(price);
+  console.log(cost);
+  document.getElementById("fprice").innerHTML=Number(cost);
+   var tot=Number(cost)+Number(sfee1);
+document.getElementById("total").innerHTML=Number(tot);
+ var tp1= Number(sc1)+Number(ac1)+Number(sf1)+Number(tot);
+document.getElementById("tp").innerHTML=tp1;
+
+   }
+    
+ function remove(){
+    count=0;
+    const cost=0;
+    tot=0;
+    tp1=0;
+     document.getElementById("fprice").innerHTML=Number(cost);
+    document.getElementById("total").innerHTML=Number(tot);
+    document.getElementById("number").innerHTML=count;
+    document.getElementById("tp").innerHTML=tp1;
+  
+     }
+
+ 
+
+</script>
+
+</html>
